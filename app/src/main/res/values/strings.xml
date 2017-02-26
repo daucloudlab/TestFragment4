@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FlexibleUIDemoProject</string>
+
+    <string-array name="chapters">
+        <item>Activities</item>
+        <item>Services</item>
+        <item>Fragment</item>
+        <item>Intent and Intent Filters</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>
+            An activity is a single, focused thing that the user can do.
+            Almost all activities interact with the user, so the Activity
+            class takes care of creating a window for you in which you can
+            place your UI with setContentView(View). While activities are often
+            presented to the user as full-screen windows, they can also be used
+            in other ways: as floating windows (via a theme with windowIsFloating
+            set or embedded inside of another activity (using ActivityGroup)
+        </item>
+        <item>
+            A Service is an application component representing either an application\'s
+            desire to perform a longer-running operation while not interacting with
+            the user or to supply functionality for other applications to use. Each
+            service class must have a corresponding  declaration in its package\'s
+            AndroidManifest.xml. Services can be started with Context.startService and
+            Context.bindService
+        </item>
+        <item>
+            A Fragment is a piece of an application\'s user interface or behavior that
+            can be placed in an Activity. Interaction with fragments is done through
+            FragmentManager, which can be obtained via Activity.getFragmentManager and
+            Fragment.getFragmentManager
+        </item>
+        <item>
+            An intent is an abstract description of an operation to be performed.
+            It can be used with startActivity to launch an Activity, broadcastIntent
+            to send it to any interested BroadcastReceiver components,
+            and startService(Intent) or bindService Intent, ServiceConnection,
+            int  to communicate with a background Service
+        </item>
+    </string-array>
+</resources>
